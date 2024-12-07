@@ -7,13 +7,13 @@ export default function Details(){
 
     const recipeId = useParams();
 
-    console.log(recipeId)
+    // console.log(recipeId)
 
     const {data, loading, error} = useFetch(`https://recipe-organiser-backend-lovat.vercel.app/allRecipes`)
 
     if (error) return <div className='alert alert-info'>Error in loading the data, please try again!</div>
 
-    console.log(recipeId.detailId)
+    // console.log(recipeId.detailId)
     const recipeData = data?.find((recipe) => recipe.recipeName == recipeId.detailId);
 
 

@@ -37,7 +37,7 @@ function App() {
         alert('Failed to delete the recipe')
       }
     } catch (error) {
-      console.error('Error deleting recipe:', error);
+      // console.error('Error deleting recipe:', error);
       alert('Error deleting the recipe');
     }
   }
