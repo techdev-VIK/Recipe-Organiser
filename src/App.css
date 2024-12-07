@@ -1,0 +1,17 @@
+.img-fixed-height {
+  height: 200px; 
+  object-fit: cover; 
+  width: 100%; 
+}
+
+.img-full-height {
+  object-fit: cover; 
+  width: 100%; 
+}
+
+
+.text-truncate {
+  white-space: nowrap;       
+  overflow: hidden;          
+  text-overflow: ellipsis;   
+}
