@@ -58,7 +58,7 @@ function App() {
             {filteredRecipes.length > 0 ? (filteredRecipes.map((recipe) => (
               <div className='col-md-3' key={recipe._id}>
               <div className='card mt-3'>
-                <img src={recipe.imageLink} alt="" className='img-fluid card-img-top img-fixed-height'/>
+                <img src={recipe.imageLink} alt={recipe.recipeName} className='img-fluid card-img-top img-fixed-height'/>
 
                 <div className='card-body'>
                   <h3 className='text-truncate'>{recipe.recipeName}</h3>

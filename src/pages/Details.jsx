@@ -27,7 +27,7 @@ export default function Details(){
                 <div className="card mt-3">
                     <div className="row">
                         <div className="col-md-4">
-                            <img src={recipeData.imageLink} alt="" className="img-fluid h-100" />
+                            <img src={recipeData.imageLink} alt={recipeData.recipeName} className="img-fluid h-100" />
                         </div>
 
                         <div className="col-md-8">
