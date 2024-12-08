@@ -24,8 +24,8 @@ export default function Details(){
             {recipeData ? (<div>
                 <h3 className="mt-4">{recipeData.recipeName}</h3>
 
-                <div className="card mt-3">
-                    <div className="row">
+                <div className="card mt-3 h-100">
+                    <div className="row h-100">
                         <div className="col-md-4">
                             <img src={recipeData.imageLink} alt={recipeData.recipeName} className="img-fluid h-100" />
                         </div>
